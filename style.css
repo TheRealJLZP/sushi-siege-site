@@ -1,0 +1,20 @@
+@font-face{font-family:Pixelify;src:url(pixelify.woff2) format('woff2');font-weight:400 700;font-display:swap}
+:root{--bg:#141019;--panel:#1d1724;--line:#33293f;--fg:#f1e9df;--muted:#b3a6c0;--gold:#ffcc4d;--red:#ff8a6a}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px 64px}
+header{margin-bottom:28px}
+.brand{font-family:Pixelify,"Trebuchet MS",sans-serif;font-weight:700;font-size:15px;letter-spacing:.08em;color:var(--red);text-transform:uppercase;text-decoration:none}
+h1{font-family:Pixelify,"Trebuchet MS",sans-serif;font-weight:700;font-size:36px;line-height:1.1;margin:6px 0 8px;color:var(--gold)}
+h2{font-family:Pixelify,"Trebuchet MS",sans-serif;font-weight:600;font-size:22px;margin:32px 0 8px}
+p,li{color:var(--fg)}
+.muted{color:var(--muted)}
+ul{padding-left:20px}
+li{margin:4px 0}
+a{color:var(--gold)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:12px 0}
+.card h3{margin:0 0 4px;font-size:17px}
+.card p{margin:0;color:var(--muted)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+footer a{margin-right:16px}
